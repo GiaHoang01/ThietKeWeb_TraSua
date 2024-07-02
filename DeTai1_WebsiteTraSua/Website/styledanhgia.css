@@ -1,0 +1,73 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+.Tieude
+{
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+article
+{
+    max-width: 100%;
+    height: auto;
+}
+.Danhgias
+{
+    padding: 40px 0;
+    text-align: center;
+}
+.bentrong
+{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col
+{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.Danhgia
+{
+    padding: 30px;
+    background-color: rgb(240, 234, 234);
+    border-radius: 5px;
+}
+.Danhgia img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.name
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.stars
+{
+    color: orange;
+    margin-bottom: 20px;
+}

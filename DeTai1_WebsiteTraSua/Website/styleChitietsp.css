@@ -1,0 +1,266 @@
+.sp
+{
+    background-color: whitesmoke;
+    border-radius: 2px;
+    width: 85%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.img-left
+{
+    float: left;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    margin-top: 80px;
+}
+.img-left img
+{
+    width: 300px;
+    height: 300px;
+}
+#img-small img:hover
+{
+    border: 3px solid white;
+}
+#img-small img:hover
+{
+    cursor: pointer;
+    border: 3px solid red;
+}
+.sp ul
+{
+    float: left;
+    list-style: none;
+    padding: 20px 0;
+}
+.sp ul li:nth-child(1)
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.sp ul li:nth-child(2)
+{
+    font-weight: 900;
+    font-size: 25px;
+    color: red;
+    margin-bottom: 20px;
+}
+.sp p:nth-child(1)
+{
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sp p:nth-child(2)
+{
+    text-align: justify;
+    margin: 20px 20px;
+    line-height: 30px;
+}
+.splq
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#themvaogiohang
+{
+    background-color: #ffc5b2;
+    color:#ee4d2d;
+    font-size: 20px;
+    width: 250px;
+    border: none;
+    height: 50px;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#themvaogiohang:hover
+{
+    border-radius: 2px;
+    box-shadow: #6b6b6b 0px 1px 8px 0px;
+}
+#themvaogiohang i
+{
+    padding: 0 10px 0 0;
+}
+#datHang{
+    background-color: #f05d40;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    border: none;
+    height: 50px;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#datHang:hover{
+    border-radius: 2px;
+    box-shadow: #6b6b6b 0px 1px 8px 0px;
+}
+
+
+
+#datHang1{
+    background-color: #f05d40;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    border: none;
+    height: 50px;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#datHang1:hover{
+    border-radius: 2px;
+    box-shadow: #6b6b6b 0px 1px 8px 0px;
+}
+
+
+
+
+#ThanhToan{
+    background-color: #f05d40;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    border: none;
+    height: 50px;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#ThanhToan:hover{
+    border-radius: 2px;
+    box-shadow: #6b6b6b 0px 1px 8px 0px;
+}
+.sp input[type=number]
+{
+    width: 100px;
+    height: 40px;
+    margin: 30px 10px;
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+#size{
+    width: 190px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    border: black;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#size:hover
+{
+    border-radius: 5px;
+    box-shadow: #6b6b6b 0px 1px 8px 0px;
+}
+#size:focus{
+    background-color: bisque;
+}
+.sp textarea {
+    width: 580px;
+    height: 80px;
+}
+/* address */
+.address-form
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    display: none;
+    z-index: 999;
+}
+.address-form-content
+{
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.address-form-content form h2
+{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    clear: both;
+}
+.address-form-content form > span
+{
+    float: right;
+    font-weight: normal;
+    font-size: 25px;
+    height: 30px;
+    padding: 0 6px;
+    border: 1px solid  #ddd;
+    line-height: 30px;
+    cursor: pointer;
+}
+.address-form-content form >span:hover
+{
+    background-color: #ee4d2d;
+}
+.address-form-content form fieldset
+{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.address-form-content form fieldset legend
+{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.address-form-content form fieldset legend span
+{
+    color: red;
+}
+.address-form-content form fieldset input[type=text]
+{
+    border-style: hidden;
+    width: 370px;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    outline: none;
+}
+.address-form-content form fieldset select
+{
+    border-style: hidden;
+    width: 370px;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    outline: none;
+}

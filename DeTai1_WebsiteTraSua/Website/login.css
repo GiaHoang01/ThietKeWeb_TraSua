@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Signup {
+    padding: 50px 50px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.Signup-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.Signup-social {
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0px; 
+    background-color: #1b74e4;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Signup-social:hover {
+    opacity: 0.8;
+}
+
+.Signup-social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4C6FF4;
+    font-size: 50px;
+}
+
+.Signup-social-text {
+    display: block;
+    margin: 0 auto;
+}
+
+.Signup-input {
+    padding: 20px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.Login-input {
+    padding: 20px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gainsboro;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #dd4b39;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.Signup-input:focus {
+    box-shadow: #1b74e4 0px 0px 5px;
+    border: none;
+}
+
+.Login-input:focus {
+    box-shadow: #1b74e4 0px 0px 5px;
+    border: none;
+}
+
+.Signup-submit {
+    padding: 20px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #1b74e4;
+    color: white;
+    outline: none;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.Signup-submit:hover {
+    opacity: 0.8;
+}
+
+.DK-DN {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}

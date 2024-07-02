@@ -1,0 +1,161 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.NoiDungMenu{
+    background-color: rgb(208, 213, 218);
+    border-radius: 4px;
+    width: 85%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.NoiDungMenu ul{
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    height: 40px;
+    line-height: 40px;
+}
+.NoiDungMenu ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.NoiDungMenu ul li{
+    padding: 0px 20px 0px 0px;
+}
+#menu
+{
+    color: #868e96;
+}
+.Tieude
+{
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 40px auto;   
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+article
+{
+    max-width: 100%;
+    height: auto;
+}
+.checked {
+    color: orange;
+    font-size: small;
+}
+.fa-star {
+    font-size: small;
+}
+.DanhGia{
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns:  270px 270px 270px 270px;
+    grid-row-gap: 20px;
+    justify-content: center;
+}
+.item
+{
+    position: relative;
+    text-align: center;
+    padding: 30px 0;
+}
+.item:hover
+{
+    border-radius: 5px;
+    box-shadow: #6b6b6b 0px 1px 8px 0px;
+}
+.item:hover .item-top p
+{
+    bottom: 0px;
+}
+.item a
+{
+    outline: 0;
+    text-decoration: none;
+    color: black;
+}
+.item-top
+{
+    position: relative;
+    overflow: hidden;
+}
+.item a .item-top img
+{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.item a .item-top p
+{
+    text-transform: uppercase;
+    color: white;
+    background-color: #446084;
+    position: absolute;
+    bottom: -36px;
+    width: 100%;
+    line-height: 30px;
+    height: 30px;
+    transition: 0.25s ease-in-out;
+}
+.item-info
+{
+    padding-top: 5px;
+}
+.item a .item-info ul 
+{
+    list-style: none;
+}
+.item a .item-info ul li:nth-child(2)
+{
+    color: red;
+    font-size: 18px;
+    font-weight: 900;
+}
+.item a .item-info ul li:nth-child(1)
+{
+    font-weight: 700;
+}
+
+/*-----------------hienthi-sp---------*/
+.hienthi-sp
+{
+    grid-column: 1;
+    font-size: 15px;
+}
+marquee{
+    font-weight: bold;
+    font-size: 50px;
+    color:yellow;
+}
+.dstrang-sp
+{
+    grid-column: 4;
+    font-size: 15px;
+    text-align: right;
+}
+.dstrang-sp span
+{
+    padding-right: 10px;
+}
+.dstrang-sp p a
+{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}

@@ -1,0 +1,44 @@
+#store{
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+tbody{
+    margin: 0px auto;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+tr td
+{
+    border: 1px solid grey;
+    text-align: center;
+    width: 200px;
+    background-color: bisque;
+}
+#giohang tr td
+{
+    background-color: white;
+}
+
+#giohang img{
+    width: 100px;
+}
+
+#DSDH tr td{
+    padding: 10px;
+}
+
+#TT{
+    font-size: 25px;
+}
